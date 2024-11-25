@@ -1,0 +1,13 @@
+[build]
+node_version = "22.11.0"
+  command = "npm run build"
+  functions = "functions"
+
+[functions]
+  included_files = ["_layout/*","ads/*","assets/*","*"]
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/core/:splat"
+  status = 200
+  force = true

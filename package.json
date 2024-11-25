@@ -1,0 +1,21 @@
+{
+  "name": "cdom-dev",
+  "version": "1.0.0",
+  "description": "Growth your business",
+  "main": "functions/core.js",
+  "scripts": {
+    "start": "node index",
+    "build": "netlify-lambda build server"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "node-cache": "^5.1.2",
+    "serverless-http": "^3.1.0",
+    "unirest": "^0.6.0",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^1.0.0"
+  }
+}
